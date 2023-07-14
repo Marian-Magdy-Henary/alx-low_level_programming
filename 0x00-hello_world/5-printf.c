@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- *main - entry point
+ * main - entry point
  *
- *description : print phrase by printf function
+ * description : print phrase by printf function
  *
- * return:always 0(success)
+ * return: always 0 (success)
 */
 int main(void)
 {
