@@ -14,9 +14,9 @@ for (a = 97 ; a <= 122 ; a++)
 {
 for (A = 65 ; A <= 90 ; A++)
 {
-putchar (A);
 }
 putchar (a);
+putchar (A);
 }
 putchar ('\n');
 return (0);
