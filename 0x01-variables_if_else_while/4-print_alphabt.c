@@ -9,12 +9,11 @@
 int main(void)
 {
 int a = 97;
-char n = NULL;
 for (a = 97 ; a <= 122 ; a++)
 {
 if (a == 113 || a == 101)
 {
-putchar (n);
+putchar (0);
 }
 else
 {
