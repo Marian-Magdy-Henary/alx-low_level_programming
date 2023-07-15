@@ -13,7 +13,7 @@ for (a = 97 ; a <= 122 ; a++)
 {
 if (a == 113 || a == 101)
 {
-putchar ('');
+putchar ("");
 }
 else
 {
