@@ -8,23 +8,23 @@
  *
  * Return: always 0 (success)
 */
-
 int main(void)
 {
-int n;
+int n, digit;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-if (n > 5)
+digit = n % 10;
+if (digit > 5)
 {
-printf("Last digit of %d is", n, " and is greater than 5");
+printf("Last digit of %i is %i and is greater than 5\n", n, digit);
 }
-if else(n == 0)
+else if (digit == 0)
 {
-printf("Last digit of %d is", n, " and is and is 0");
+printf("Last digit of %i is %i and is and is 0\n", n, digit);
 }
-if else(n > 6 && n != 0)
+else if (digit > 6 && digit != 0)
 {
-printf("Last digit of %d is", n, " and is less than 6 and not 0");
+printf("Last digit of %i is %i and is less than 6 and not 0\n", n, digit);
 }
 return (0);
 }
