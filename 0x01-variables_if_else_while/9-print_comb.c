@@ -12,9 +12,9 @@ int a = 48;
 for (a = 48 ; a <= 57 ; a++)
 {
 putchar (a);
+}
 putchar (',');
 putchar (32);
-}
 putchar ('\n');
 return (0);
 }
