@@ -2,7 +2,7 @@
 /**
  * main - entry point
  *
- * Description: print phrase by putchar function
+ * print alphabet in lowercase by void print_alphabet function
  *
  * Return: always 0 (success)
 */
