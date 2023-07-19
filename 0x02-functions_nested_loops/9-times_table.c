@@ -9,10 +9,10 @@ int a = 48;
 int b = 48;
 for (a = 48 ; a <= 57 ; a++)
 {
-_putchar (a);
 for (b = 0 ; b <= 57 ; b++)
 {
-_putchar (b);
+a = a + b;
+_putchar (a);
 _putchar (',');
 _putchar (0);
 }
