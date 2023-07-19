@@ -14,7 +14,7 @@ for (b = 1 ; b <= 9 ; b++)
 _putchar (',');
 _putchar (' ');
 c = a * b;
-if (c <= 9)
+if (c >= 9)
 {
 _putchar (' ');
 }
