@@ -5,19 +5,17 @@
 */
 void jack_bauer(void)
 {
-int a = 48;
-int b = 48;
-int c = 48;
+int b = 0;
+int c = 0;
 for (c = 0 ; c <= 23 ; c++)
 {
-for (a = 48 ; a <= 53 ; a++)
+for (b = 0 ; b <= 59 ; b++)
 {
-for (b = 48 ; b <= 57 ; b++)
-{
-_putchar (c);
+_putchar (c / 10 + 48);
+_putchar (c % 10 + 48);
 _putchar (58);
-_putchar (a);
-_putchar (b);
+_putchar (b / 10 + 48);
+_putchar (b % 10 + 48);
 _putchar ('\n');
 }
 }
