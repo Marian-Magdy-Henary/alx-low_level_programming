@@ -11,11 +11,11 @@ for (a = 48 ; a <= 57 ; a++)
 {
 for (b = 48 ; b <= 57 ; b++)
 {
+}
+}
 _putchar (a);
 _putchar (b);
 _putchar (',');
 _putchar (0);
-}
-}
 _putchar ('\n');
 }
