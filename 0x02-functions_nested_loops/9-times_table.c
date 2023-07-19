@@ -20,8 +20,8 @@ _putchar (' ');
 }
 else 
 {
-_putchat (c / 10 + 48);
-_putchat (c % 10 + 48);
+_putchar (c / 10 + 48);
+_putchar (c % 10 + 48);
 }
 _putchar ('\n');
 }
