@@ -17,7 +17,11 @@ for (a = 48 ; a <= 57 ; a++)
 {
 for (b = 48 ; b <= 57 ; b++)
 {
-_putchar (c + d + 58 + a + b);
+_putchar (c);
+_putchar (d);
+_putchar (58);
+_putchar (a);
+_putchar (b);
 _putchar ('\n');
 }
 }
