@@ -5,15 +5,14 @@
 */
 void times_table(void)
 {
-int a = 0;
-int b = 0;
-int i = 0;
-for (a = 0 ; a <= 9 ; a++)
+int a = 48;
+int b = 48;
+for (a = 48 ; a <= 57 ; a++)
 {
-for (b = 0 ; b <= 9 ; b++)
+_putchar (a);
+for (b = 0 ; b <= 57 ; b++)
 {
-i = i + 1;
-_putchar (i);
+_putchar (b);
 _putchar (',');
 _putchar (0);
 }
