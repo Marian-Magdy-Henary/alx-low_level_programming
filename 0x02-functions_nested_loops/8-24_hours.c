@@ -9,23 +9,16 @@ int a = 48;
 int b = 48;
 int c = 48;
 int d = 48;
-for (c = 48 ; c <= 50 ; c++)
+for (c = 48 ; c <= 57 ; c++)
 {
-for (d = 48 ; d <= 57 ; d++)
+for (d = 48 ; d <= 50 ; d++)
 {
-if (c == 50 && d == 51)
-{
-a = 48;
-b = 48;
-c = 48;
-d = 48;
-}
 for (a = 48 ; a <= 53 ; a++)
 {
 for (b = 48 ; b <= 57 ; b++)
 {
-_putchar (c);
 _putchar (d);
+_putchar (c);
 _putchar (58);
 _putchar (a);
 _putchar (b);
