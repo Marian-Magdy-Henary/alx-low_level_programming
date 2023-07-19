@@ -9,11 +9,11 @@ int a = 48;
 int b = 48;
 int c = 48;
 int d = 48;
-for (c = 48 ; c <= 57 ; c++)
+for (c = 48 ; c <= 50 ; c++)
 {
-for (d = 48 ; d <= 57 ; d++)
+for (d = 48 ; d <= 51 ; d++)
 {
-for (a = 48 ; a <= 57 ; a++)
+for (a = 48 ; a <= 53 ; a++)
 {
 for (b = 48 ; b <= 57 ; b++)
 {
