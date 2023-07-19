@@ -8,6 +8,7 @@ void jack_bauer(void)
 int a = 48;
 int b = 48;
 int c = 48;
+int d = 48;
 for (c = 48 ; c <= 56 ; c++)
 {
 for (d = 48 ; d <= 56 ; d++)
@@ -21,5 +22,5 @@ for (b = 48 ; b <= 56 ; b++)
 }
 }
 }
-_putchar (c, d, 58, a, b);
+_putchar (c + d + 58 + a + b);
 }
