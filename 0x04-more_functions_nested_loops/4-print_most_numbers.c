@@ -12,6 +12,6 @@ if (i == 50 || i == 52)
 {
 _putchar (0);
 }
-_putchar (i + '\n');
+_putchar (i);
 }
 }
