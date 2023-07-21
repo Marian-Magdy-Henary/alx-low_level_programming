@@ -15,7 +15,7 @@ continue;
 else
 {
 _putchar (i);
+}
+}
 _putchar ('\n');
-}
-}
 }
