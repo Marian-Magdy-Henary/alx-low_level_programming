@@ -18,6 +18,6 @@ for (d = 48; d <= 52; d++)
 {
 _putchar (49 + d);
 }
-_putchar ('\n');
 }
+_putchar ('\n');
 }
