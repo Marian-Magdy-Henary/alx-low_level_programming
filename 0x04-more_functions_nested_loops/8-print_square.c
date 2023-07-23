@@ -14,7 +14,7 @@ for (raw = 1; raw <= size; raw++)
 {
 for (col = 1; col <= size; col++)
 {
-_putchar (35);
+_putchar ('#');
 }
 }
 }
