@@ -18,7 +18,6 @@ for (col = 1; col <= raw; col++)
 _putchar (35);
 }
 }
-_putchar ('\n');
 }
 else
 {
