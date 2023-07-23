@@ -12,7 +12,7 @@ if (size > 0)
 {
 for (raw = 1; raw <= size; raw++)
 {
-for (col = 1; col <= raw; col++)
+for (col = 1; col <= size; col++)
 {
 _putchar (35);
 }
