@@ -4,7 +4,7 @@
  *
  * @size : checks input of function
 */
-void print_square(int size);
+void print_square(int size)
 {
 int raw = 1;
 int col = 1;
