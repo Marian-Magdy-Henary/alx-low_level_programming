@@ -6,18 +6,20 @@
 void more_numbers(void)
 {
 int i = 1;
-int c = 48;
-int d = 48;
+int c = 0;
+int num;
 for (i = 1; i <= 10; i++)
 {
-for (c = 48; c <= 57; c++)
+for (c = 0; c <= 14; c++)
 {
-_putchar (c);
-}
-for (d = 48; d <= 52; d++)
+num = c;
+if (c > 9)
 {
-_putchar (49 + d);
+_putchar (1 + 48);
+num = c % 10;
 }
+_putchar (num + 48);
 }
 _putchar ('\n');
+}
 }
