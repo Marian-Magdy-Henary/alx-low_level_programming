@@ -13,7 +13,7 @@ for (i = 1; i <= n; i++)
 {
 _putchar ('\n');
 }
-_putchar (92);
+_putchar (32);
 _putchar ('\n');
 }
 else
