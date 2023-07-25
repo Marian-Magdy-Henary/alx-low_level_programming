@@ -14,6 +14,6 @@ for (count = 0; *s != '\0'; s++)
 }
 for (z = count; z > 0; z--)
 {
-s--;
+*s--;
 }
 }
