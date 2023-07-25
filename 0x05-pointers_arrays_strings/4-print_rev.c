@@ -8,8 +8,9 @@ void print_rev(char *s)
 {
 int counter ;
 int rev ;
-for (counter = 0; *S != '\0'; *s++)
+for (counter = 0; *s != '\0'; s++)
 {
+++counter;
 }
 for (rev = counter; rev >= 0; rev--)
 {
