@@ -6,21 +6,20 @@
  *
  * @dest : checks input of function
  *
- * Return: always  'con' (success)
+ * Return: always  'dest' (success)
 */
 char *_strcat(char *dest, char *src)
 {
 int i = 0;
 int x = 0;
-char con = ' ';
 }
-for (x = 0 ; dest[x] != 0; x++)
+while (dest[x])
 {
-con = dest[x];
+x++;
 }
-for (i = 0 ; src[i] != 0; i++)
+for (i = 0; src[i]; i++)
 {
-con = con + src[i];
+dest[x++] = src[i];
 }
-return (con);
+return (dest);
 }
