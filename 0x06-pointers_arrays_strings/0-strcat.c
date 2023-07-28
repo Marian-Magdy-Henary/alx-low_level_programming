@@ -6,19 +6,21 @@
  *
  * @dest : checks input of function
  *
- * Return: always  1 if 'c' is lower otherwise 0 (success)
+ * Return: always  'con' (success)
 */
 char *_strcat(char *dest, char *src)
 {
 int i = 0;
 int x = 0;
-for (i = 0 ; src[i] != 0; i++)
-{
-_putchar (src[i]);
+char con = ' ';
 }
 for (x = 0 ; dest[x] != 0; x++)
 {
-_putchar (dest[x]);
-_putchar ('\n');
+con = dest[x];
 }
+for (i = 0 ; src[i] != 0; i++)
+{
+con = con + src[i];
+}
+return (con);
 }
