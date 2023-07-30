@@ -13,7 +13,7 @@ int i = 0;
 for (i = 0; i < n &&  a[i] != '\0'; i++)
 {
 printf ("%d ",a[i]);
-if (n)
+if (n > i)
 {
 printf ("%s %s",",","");
 }
