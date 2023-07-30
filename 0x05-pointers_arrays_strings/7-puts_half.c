@@ -21,3 +21,4 @@ dev = (i - 1) / 2;
 _putchar (str[dev]);
 _putchar ('\n');
 }
+}
