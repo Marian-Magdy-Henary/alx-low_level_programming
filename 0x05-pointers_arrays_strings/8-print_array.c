@@ -19,7 +19,6 @@ printf ("%s%s",","," ");
 }
 else
 {
-printf ("%s","");
 }
 }
 }
