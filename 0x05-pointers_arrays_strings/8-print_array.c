@@ -17,7 +17,7 @@ if (n > i)
 {
 printf ("%s%s",","," ");
 }
-else if (i == n)
+else if (i > n &&  a[i] != '\0')
 {
 printf ("%s","");
 }
