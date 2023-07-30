@@ -13,13 +13,13 @@ int i = 0;
 for (i = 0; i < n &&  a[i] != '\0'; i++)
 {
 printf ("%d",a[i]);
-if (a[n])
+if (i != (n - 1))
 {
-printf ("%s","");
+printf ("%s%s",","," ");
 }
 else
 {
-printf ("%s%s",","," ");
+printf ("%s","");
 }
 }
 }
