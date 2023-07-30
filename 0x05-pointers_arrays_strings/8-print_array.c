@@ -12,6 +12,13 @@ void print_array(int *a, int n)
 int i = 0;
 for (i = 0; i < n &&  a[i] != '\0'; i++)
 {
-printf ("%d %s %s ",a[i],","," ");
+printf ("%d ",a[i]);
+if (i == n)
+{
+}
+else
+{
+printf ("%s %s",",","");
+}
 }
 }
