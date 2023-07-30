@@ -14,6 +14,6 @@ int i = 0;
 for (i = 0; src[i] != '\0'; i++)
 ;
 i++;
-dest[c] = src[i];
+dest[i] = src[i];
 return (dest);
 }
