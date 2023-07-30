@@ -15,9 +15,9 @@ for (i = 0; i < n &&  a[i] != '\0'; i++)
 printf ("%d",a[i]);
 if (n > i)
 {
-printf ("%s%s",",","");
+printf ("%s%s",","," ");
 }
-else
+else if (i == n)
 {
 printf ("%s","");
 }
