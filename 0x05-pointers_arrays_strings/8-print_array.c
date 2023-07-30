@@ -15,6 +15,7 @@ for (i = 0; i < n &&  a[i] != '\0'; i++)
 printf ("%d ",a[i]);
 if (i == n)
 {
+printf ("");
 }
 else if (i < n)
 {
