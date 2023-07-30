@@ -19,7 +19,7 @@ printf ("%s","");
 }
 else if (i < n)
 {
-printf ("%s %s",",","");
+printf ("%s %s"," ",",");
 }
 }
 }
