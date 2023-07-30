@@ -16,7 +16,7 @@ printf ("%d ",a[i]);
 if (i == n)
 {
 }
-else
+else if (i < n)
 {
 printf ("%s %s",",","");
 }
