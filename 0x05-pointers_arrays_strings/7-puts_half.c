@@ -10,15 +10,16 @@ int i = 0;
 int dev = 0;
 for (i = 0; str[i] != '\0'; i++)
 {
+}
 if (i % 2 == 0)
 {
 dev = i / 2;
-}
-else if (i % 2 != 0)
-{	
-dev = (i - 1) / 2;
 _putchar (str[dev]);
 }
+else if (i % 2 != 0)
+{
+dev = (i - 1) / 2;
+_putchar (str[dev]);
 }
 _putchar ('\n');
 }
