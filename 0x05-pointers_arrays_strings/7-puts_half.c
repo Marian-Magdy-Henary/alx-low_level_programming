@@ -13,7 +13,6 @@ for (i = 0; str[i] != '\0'; i++)
 if (i % 2 == 0)
 {
 dev = i / 2;
-_putchar (str[dev]);
 }
 else if (i % 2 != 0)
 {	
