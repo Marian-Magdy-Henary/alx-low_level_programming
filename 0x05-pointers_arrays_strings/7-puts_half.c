@@ -13,12 +13,13 @@ for (i = 0; str[i] != '\0'; i++)
 if (i % 2 == 0)
 {
 dev = i / 2;
-str[dev];
+_purchar (str[dev]);
 }
 else if (i % 2 != 0)
-{
+{	
 dev = (i - 1) / 2;
-str[dev];
+_putchar (str[dev]);
 }
 }
+_putchar ('\n');
 }
