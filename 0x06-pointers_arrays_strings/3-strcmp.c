@@ -22,6 +22,6 @@ for (n = 0; s2[n]; n++)
 {
 str2 = (int)s2[n];
 }
-compare = (str1 - 48) - (str2 - 48);
+compare = (str2 - 48) - (str1 - 48);
 return (compare);
 }
