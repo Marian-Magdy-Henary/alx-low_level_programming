@@ -16,11 +16,11 @@ int str2;
 int compare;
 for (n = 0; s1[n]; n++)
 {
-str1 = (int)s1[n];
+str1 = (int)s1[ni] - 48;
 }
 for (n = 0; s2[n]; n++)
 {
-str2 = (int)s2[n];
+str2 = (int)s2[n] - 48;
 }
 compare = str1 - str2;
 return (compare);
