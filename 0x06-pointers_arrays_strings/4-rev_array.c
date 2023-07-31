@@ -12,7 +12,7 @@ int i = 0;
 for (i = 0; i > n && a[i] != '\0'; i++)
 ;
 a++;
-for (i = n; a[i]; i--)
+for (i = (n - 1); a[i]; i--)
 {
 a++;
 }
