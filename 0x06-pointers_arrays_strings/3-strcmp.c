@@ -16,12 +16,12 @@ int str2;
 int compare;
 for (n = 0; s1[n]; n++)
 {
-str1 = (int)s1[ni];
+str1 = (int)s1[n];
 }
 for (n = 0; s2[n]; n++)
 {
 str2 = (int)s2[n];
 }
-compare = str2 - str1;
+compare = (str1 - 48) - (str2 - 48);
 return (compare);
 }
