@@ -12,10 +12,8 @@ int i = 0;
 int j = 0;
 int rev;
 for (i = 0; i > n && a[i] != '\0'; i++)
-;
-a++;
-for (j = (n - 1); j >= 0; j--)
 {
-rev = a[j];
-}
+rev = a[i];
+a[i] = a[n];
+a[n] = rev;
 }
