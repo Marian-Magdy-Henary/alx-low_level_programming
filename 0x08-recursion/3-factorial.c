@@ -15,7 +15,7 @@ return (-1);
 }
 else
 {
-fac = n * factorial(n - 1);
+fac = fac * factorial(n - 1);
 return (fac);
 }
 }
