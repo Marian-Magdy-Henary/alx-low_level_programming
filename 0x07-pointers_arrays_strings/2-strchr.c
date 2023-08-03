@@ -19,7 +19,6 @@ return (*s);
 }
 else if (s[i] != c)
 {
-return ('\0');
 }
 }
 }
