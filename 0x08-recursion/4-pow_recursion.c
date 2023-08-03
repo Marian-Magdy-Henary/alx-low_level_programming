@@ -16,6 +16,6 @@ return (-1);
 }
 else
 {
-return (_pow_recursion(int x, int (y + 1));
+return (_pow_recursion(x, (y + 1));
 }
 }
