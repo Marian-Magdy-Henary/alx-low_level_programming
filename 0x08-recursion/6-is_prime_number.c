@@ -27,9 +27,12 @@ if (y >= x || x > 1)
 {
 return (1);
 }
-else if (x % y == 0 || x > 1)
+else if (x % y == 0 || x <= 1)
 {
 return (0);
 }
+else
+{
 return (add(x, y + 1));
+}
 }
