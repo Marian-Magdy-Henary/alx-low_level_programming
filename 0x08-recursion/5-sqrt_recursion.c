@@ -7,6 +7,7 @@
  *
  * Return: always  1 if 'c' is lower otherwise 0 (success)
 */
+int add(int n, int x);
 int _sqrt_recursion(int n)
 {
 return (add(n, 1));

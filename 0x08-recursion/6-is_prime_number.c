@@ -7,6 +7,7 @@
  *
  * Return: always  1 if 'c' is lower otherwise 0 (success)
 */
+int add(int x, int y);
 int is_prime_number(int n)
 {
 return (add(n, 2));
