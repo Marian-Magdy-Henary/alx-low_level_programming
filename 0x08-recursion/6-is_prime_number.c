@@ -23,11 +23,11 @@ return (add(n, 2));
 */
 int add(int x, int y)
 {
-if (y >= x || n > 1)
+if (y >= x || x > 1)
 {
 return (1);
 }
-else if (n % y == 0 || n > 1)
+else if (x % y == 0 || x > 1)
 {
 return (0);
 }
