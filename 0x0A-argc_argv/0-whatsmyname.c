@@ -8,8 +8,9 @@
  *
  * Return: always  1 if 'c' is lower otherwise 0 (success)
 */
-int mynewnameis(int x, char *s[])
+int main(int x, char const *s[])
 {
+(void)x;
 printf("%s\n", s[0]);
 return (0);
 }
