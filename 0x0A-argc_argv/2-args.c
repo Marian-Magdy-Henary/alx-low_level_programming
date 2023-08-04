@@ -11,7 +11,7 @@
 int main(int x, char const *s[])
 {
 int i = 0;
-for (i = 0;i < x; i++)
+for (i = 0; i < x; i++)
 {
 printf("%s\n", s[i]);
 }
