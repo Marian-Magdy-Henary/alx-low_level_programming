@@ -12,7 +12,7 @@
 int main(int x, char const *s[])
 {
 int res, num1, num2;
-if (x > 3 || x < 3)
+if (x != 3)
 {
 printf("Error\n");
 return (1);
