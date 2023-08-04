@@ -20,6 +20,7 @@ return (0);
 if (x > 3 || x < 3)
 {
 printf("%s\n", "Error");
+return (1);
 }
 }
 
