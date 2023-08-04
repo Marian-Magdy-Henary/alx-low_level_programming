@@ -11,16 +11,16 @@
 */
 int main(int x, char const *s[])
 {
+if (x > 3 || x < 3)
+{
+printf("Error\n");
+return (1);
+}
 int res, num1, num2;
 num1 = atoi(s[1]);
 num2 = atoi(s[2]);
 res = num1 + num2;
 printf("%d\n", res);
 return (0);
-if (x > 3 || x < 3)
-{
-printf("Error\n");
-return (1);
-}
 }
 
