@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * mynewnameis - entry point
+ * main - entry point
  *
  * @s : checks input of function
  *
