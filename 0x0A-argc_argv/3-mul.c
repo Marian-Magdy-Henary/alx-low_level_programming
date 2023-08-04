@@ -19,7 +19,7 @@ printf("%d\n", res);
 return (0);
 if (x > 3 || x < 3)
 {
-printf("%s\n", "Error");
+printf("Error\n");
 return (1);
 }
 }
