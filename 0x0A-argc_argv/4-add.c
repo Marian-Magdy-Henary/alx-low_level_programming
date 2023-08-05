@@ -10,7 +10,7 @@
  *
  * Return: always  1 if 'c' is lower otherwise 0 (success)
 */
-int main(int x, char const *s[])
+int main(int x, char *s[])
 {
 int i = 0;
 unsigned int z = 0;
