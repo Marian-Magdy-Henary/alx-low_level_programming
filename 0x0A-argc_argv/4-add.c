@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include <string.h>
 /**
  * main - entry point
  *
@@ -12,23 +13,30 @@
 int main(int x, char const *s[])
 {
 int i = 0;
+int z = 0;
 int res = 0;
+char e;
+if (i > 1)
+{
 for (i = 0; i < x; i++)
 {
-if (s[0])
+e = s[i];
+for (z = 0; z < strlen(e); z++)
 {
-printf("0\n");
+if (s[z] < 48 || s[z] > 57)
+{
+printf("ERROR\n");
+return (1);
+}
+}
+res += atoi(e);
+e++;
+}
+printf("%d\n", res);
 }
 else
 {
-printf("Error\n");
-return (1);
-}
-else if (s[i] >= 48 || s[i] <= 57)
-{
-res += atoi(s[i]);
-printf("%d\n", res);
-}
+print("0\n");
 }
 return (0);
 }
