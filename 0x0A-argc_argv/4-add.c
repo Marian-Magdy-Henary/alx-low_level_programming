@@ -15,7 +15,7 @@ int main(int x, char const *s[])
 int i = 0;
 int z = 0;
 int res = 0;
-char e;
+char *e;
 if (i > 1)
 {
 for (i = 0; i < x; i++)
@@ -23,7 +23,7 @@ for (i = 0; i < x; i++)
 e = s[i];
 for (z = 0; z < strlen(e); z++)
 {
-if (s[z] < 48 || s[z] > 57)
+if (e[z] < 48 || e[z] > 57)
 {
 printf("ERROR\n");
 return (1);
@@ -36,7 +36,7 @@ printf("%d\n", res);
 }
 else
 {
-print("0\n");
+printf("0\n");
 }
 return (0);
 }
