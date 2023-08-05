@@ -15,12 +15,7 @@ int i = 0;
 int res = 0;
 for (i = 0; i < x; i++)
 {
-if (s[i] >= 48 || s[i] <= 57)
-{
-res += atoi(s[i]);
-printf("%d\n", res);
-}
-else if (s[0])
+if (s[0])
 {
 printf("0\n");
 }
@@ -28,6 +23,11 @@ else
 {
 printf("Error\n");
 return (1);
+}
+else if (s[i] >= 48 || s[i] <= 57)
+{
+res += atoi(s[i]);
+printf("%d\n", res);
 }
 }
 return (0);
