@@ -13,8 +13,8 @@
 int main(int x, char const *s[])
 {
 int i = 0;
-int z = 0;
-int res = 0;
+unsigned int z = 0;
+unsigned int res = 0;
 char *e;
 if (i > 1)
 {
