@@ -16,12 +16,10 @@ if (str[i] == 32 || str[i] == '\n'
 || str[i] == 46 || str[i] ==  63 || str[i] == 34
 || str[i] == 40 || str[i] ==  41
 || str[i] ==  125 || str[i] == 123)
-{
-if (str[i + 1] >= 97 && str[i + 1] <= 122)
+&& (str[i + 1] >= 97 && str[i + 1] <= 122)
 {
 str[i + 1] = str[i + 1] - 32;
 }
 }
 return (str);
-}
 }
