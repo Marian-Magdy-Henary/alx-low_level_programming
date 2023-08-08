@@ -20,6 +20,6 @@ if (str[i - 1] == 32 || str[i - 1] == '\n'
 {
 str[i] = str[i] - 32;
 }
-}
 return (str);
+}
 }
