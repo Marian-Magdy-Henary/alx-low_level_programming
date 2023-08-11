@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strspn- entry point
+ * _strpbrk- entry point
  *
  * @s : checks input of function
  *
@@ -19,11 +19,11 @@ for (x = 0; accept[x] >= '\0' ; x++)
 if (s[i] == accept[x])
 {
 break;
-return (&s++);
+return (s++);
 }
 else
 {
-return (NULL);
+return ('\0');
 }
 }
 }
