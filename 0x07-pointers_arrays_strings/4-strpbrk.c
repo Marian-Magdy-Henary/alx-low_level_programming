@@ -20,6 +20,9 @@ if (s[i] == accept[x])
 {
 return (s);
 }
+else
+{
+return ('\0');
 }
 }
 return ('\0');
