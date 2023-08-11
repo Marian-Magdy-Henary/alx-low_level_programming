@@ -10,21 +10,19 @@
 */
 char *_strstr(char *haystack, char *needle)
 {
-int i = 0;
-int x = 0;
-for (i = 0; haystack[i] > '\0'; i++)
+for (; *haystack != '\0'; haystack++)
 {
-for (x = 0; needle[x] > '\0' ; x++)
+char *i = haystack;
+char *p = needle;
+while (*i == *p && *p != '\n')
 {
-if (haystack[i] == needle[x] && needle != '\n')
+i++;
+p++;
+}
+if (*p == '\0')
 {
 return (haystack);
 }
-else
-{
-return ('\n');
 }
-}
-}
-return ('\n');
+return (0);
 }
