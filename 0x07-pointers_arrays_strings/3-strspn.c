@@ -20,7 +20,7 @@ for (x = 0; accept[x] >= '\0' ; x++)
 if (s[i] == accept[x])
 {
 count++;
-return (count++);
+return (count);
 }
 }
 }
