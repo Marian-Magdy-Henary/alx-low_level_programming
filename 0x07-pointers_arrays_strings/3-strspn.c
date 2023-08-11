@@ -20,6 +20,10 @@ for (x = 0; accept[x] >= '\0' ; x++)
 if (s[i] == accept[x])
 {
 count++;
+break;
+}
+else if (accept[x + 1] == '\n')
+{
 return (count);
 }
 }
