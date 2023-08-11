@@ -16,7 +16,7 @@ for (i = 0; haystack[i] > '\0'; i++)
 {
 for (x = 0; needle[x] > '\0' ; x++)
 {
-if (haystack[i] == needle[x])
+if (haystack[i] == needle[x] && needle != '\n')
 {
 return (haystack++);
 }
