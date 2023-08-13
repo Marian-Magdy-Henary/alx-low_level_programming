@@ -16,8 +16,8 @@ for (i = 0; i < size ; i++)
 {
 sum += a[i];
 sum1 += a[size - i - 1];
-a +=size;
+a += size;
 }
 printf("%d, /", sum);
-printf("%d", sum1);
+printf("%d\n", sum1);
 }
