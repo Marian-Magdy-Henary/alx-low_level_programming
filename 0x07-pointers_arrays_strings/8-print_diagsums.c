@@ -18,6 +18,6 @@ sum += a[i];
 sum1 += a[size - i - 1];
 a += size;
 }
-printf("%d, /", sum);
+printf("%d, ", sum);
 printf("%d\n", sum1);
 }
