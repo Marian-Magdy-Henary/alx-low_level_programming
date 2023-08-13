@@ -17,6 +17,6 @@ for (x = 0; x >= 8 ; x++)
 {
 printf("%c", a[i][x]);
 }
-}
 printf("\n");
+}
 }
