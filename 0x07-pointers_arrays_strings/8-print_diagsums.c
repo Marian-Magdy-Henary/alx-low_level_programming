@@ -16,8 +16,6 @@ for (i = 0; i < size ; i++)
 sum += a[i];
 _putchar(sum);
 }
-_putchar(',');
-_putchar(' ');
 for (i = size; i == 0 ; i--)
 {
 sum1 += a[i];
