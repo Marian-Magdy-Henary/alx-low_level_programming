@@ -13,11 +13,11 @@ int sum = 0;
 int sum1 = 0;
 for (i = 0; i < size ; i++)
 {
-sum += a[i];
+sum += a[i][i];
 _putchar(sum);
 _putchar(',');
 _putchar(' ');
-sum1 += a[size - 1];
+sum1 += a[i][size - i - 1];
 _putchar(sum1);
 _putchar('\n');
 }
