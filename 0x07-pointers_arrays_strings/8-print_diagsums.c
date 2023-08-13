@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_diagsums- entry point
  *
@@ -17,9 +18,6 @@ sum += a[i];
 sum1 += a[size - i - 1];
 a +=size;
 }
-_putchar(sum);
-_putchar(',');
-_putchar(' ');
-_putchar(sum1);
-_putchar('\n');
+printf("%d, /", sum);
+printf("%d", sum1);
 }
