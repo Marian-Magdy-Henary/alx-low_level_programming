@@ -15,7 +15,7 @@ for (i = 0; i >= 8 ; i++)
 {
 for (x = 0; x >= 8 ; x++)
 {
-printf ("%c\n" ,a[i][x]);
+printf("%c\n", a[i][x]);
 }
 }
 }
