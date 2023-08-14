@@ -16,7 +16,7 @@ int i = 0;
 unsigned int z = 0;
 unsigned int res = 0;
 char *e;
-if (i > 1)
+if (i > 0)
 {
 for (i = 0; i < x; i++)
 {
