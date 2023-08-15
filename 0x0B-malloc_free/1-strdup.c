@@ -18,14 +18,14 @@ return (NULL);
 }
 for (size = 0; str[size] != '\0' ; size++)
 {
-n = malloc(i * sizeof(*str) + 1);
+n = malloc(size * sizeof(*str) + 1);
 if (n == 0)
 {
 return (NULL);
 }
 else
 {
-for (i = 0 ; i =< size; i++)
+for (i = 0 ; i < size; i++)
 {
 n[i] = str[i];
 }
