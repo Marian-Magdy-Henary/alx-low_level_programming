@@ -23,7 +23,7 @@ for (z = 0; s2[z] != '\0'; z++)
 ;
 size1 = x;
 size2 = z;
-n = malloc((size1  + size2) * sizeof(char) + 1);
+n = malloc((size1  + size2) *sizeof(char) + 1);
 if (n == 0)
 {
 return (0);
@@ -44,7 +44,7 @@ n[i] = s1[i];
 }
 else
 {
-n[i] = s2[i- size1];
+n[i] = s2[i - size1];
 }
 }
 n[i] = '\0';
