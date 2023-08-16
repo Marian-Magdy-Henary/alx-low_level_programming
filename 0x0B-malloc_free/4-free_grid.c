@@ -3,9 +3,9 @@
 /**
  * free_grid - entry point
  *
- * height : int
+ * @height : int
  *
- * grid : grid of memory
+ * @grid : grid of memory
 */
 void free_grid(int **grid, int height)
 {
