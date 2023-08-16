@@ -26,10 +26,17 @@ for (i = 0; i <= height ; i++)
 n[i] = malloc(width  * sizeof(**n));
 if (n[i] == 0)
 {
+while (i--)
+{
+free (n[i]);
+}
+free (n);
+return (NULL);
 }
 for (x = 0; x <= width ; x++)
 {
 n[i][x] = 0;
+}
 }
 }
 return (n);
