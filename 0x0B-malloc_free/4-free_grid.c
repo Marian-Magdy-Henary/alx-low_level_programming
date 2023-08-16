@@ -3,11 +3,9 @@
 /**
  * free_grid - entry point
  *
- * height : checks input of function
+ * height : int
  *
- * grid : checks input of function
- *
- * Return: always  1 if 'c' is lower otherwise 0 (success)
+ * grid : grid of memory
 */
 void free_grid(int **grid, int height)
 {
