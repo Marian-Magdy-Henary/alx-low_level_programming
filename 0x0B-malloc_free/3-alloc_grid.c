@@ -28,9 +28,9 @@ if (n[i] == 0)
 {
 while (i--)
 {
-free (n[i]);
+free(n[i]);
 }
-free (n);
+free(n);
 return (NULL);
 }
 for (x = 0; x <= width ; x++)
