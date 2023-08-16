@@ -21,7 +21,7 @@ return (NULL);
 }
 else
 {
-for (i = 0; i <= height ; i++)
+for (i = 0; i < height ; i++)
 {
 n[i] = malloc(width  * sizeof(**n));
 if (n[i] == 0)
@@ -33,7 +33,7 @@ free(n[i]);
 free(n);
 return (NULL);
 }
-for (x = 0; x <= width ; x++)
+for (x = 0; x < width ; x++)
 {
 n[i][x] = 0;
 }
