@@ -7,21 +7,16 @@
  *
  * @x : checks input of function
  *
- * @Y : checks input of function
- *
  * Return: always  1 if 'c' is lower otherwise 0 (success)
 */
 int main(int x, char  *s[])
 {
-if (x >= 3)
+if (x != 3)
 {
-printf("%s\n","Error");
+printf("Error\n");
 return (1);
 }
-else
-{
-printf("%d", atoi(s[1]) * atoi(s[2]));
-}
+printf("%d\n", atoi(s[1]) * atoi(s[2]));
 return (0);
 }
 
