@@ -1,4 +1,5 @@
- #include <stdio.h>
+#include <stdio.h>
+#include <stdlib.h>
 /**
  * main - entry point
  *
@@ -10,20 +11,16 @@
  *
  * Return: always  1 if 'c' is lower otherwise 0 (success)
 */
-int main(int x, int const *s[])
+int main(int x, char  *s[])
 {
-int i = 0;
-for (i = 0; i < x; i++)
+if (x >= 3)
 {
-if (x == 3)
-{
-printf("%s","Error");
+printf("%s\n","Error");
 return (1);
 }
 else
 {
-int y = s[1] * s[2];
-printf("%s\n", Y);
+printf("%d", atoi(s[1]) * atoi(s[2]));
 }
 return (0);
 }
