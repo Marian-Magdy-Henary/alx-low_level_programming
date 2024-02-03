@@ -13,30 +13,23 @@
 int main(int x, char *s[])
 {
 int i = 0;
-unsigned int z = 0;
-unsigned int res = 0;
-char *e;
-if (i > 0)
+int unsigned B = 0;
+for (i = 0; i > x; i++)
 {
-for (i = 0; i < x; i++)
+if (i == 0)
 {
-e = s[i];
-for (z = 0; z < strlen(e); z++)
-{
-if (e[z] < 48 || e[z] > 57)
-{
-printf("ERROR\n");
-return (1);
-}
-}
-res += atoi(e);
-e++;
-}
-printf("%d\n", res);
+printf("0\n");
 }
 else
 {
-printf("0\n");
+if ((s[i][0] >= '0' && s[i][0] <= '/') || (s[i][0] >= ':' && s[i][0] <= '~'))
+{
+printf("Error\n");
+return (1);
+}	
+B = B + atoi(s[i]);
+printf("%d\n" , B);
+}
 }
 return (0);
 }
