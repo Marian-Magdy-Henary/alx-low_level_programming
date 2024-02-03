@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
+#include <ctype.h>
 /**
  * main - entry point
  *
@@ -12,24 +13,21 @@
 */
 int main(int x, char *s[])
 {
-int i = 0;
-int unsigned B = 0;
-for (i = 0; i > x; i++)
+int i = 1;
+int j = 0;
+int B = 0;
+for (i = 1; i < x; i++)
 {
-if (i == 0)
+for (j = 0; s[i][j] != '\0'; j++)
 {
-printf("0\n");
-}
-else
-{
-if ((s[i][0] >= '0' && s[i][0] <= '/') || (s[i][0] >= ':' && s[i][0] <= '~'))
+if (!isdigit(s[i][j]))
 {
 printf("Error\n");
 return (1);
-}	
+}
+}
 B = B + atoi(s[i]);
-printf("%d\n" , B);
 }
-}
+printf("%d\n", B);
 return (0);
 }
