@@ -16,11 +16,18 @@ for (size = 0; str[size] != '\0' ; size++)
 {
 }
 X = malloc(size * sizeof(char) + 1);
+if (X == 0)
+{
+return (NULL);
+}
+else
+{
 for (j = 0 ; j < size ; j++)
 {
 X[j] = str[j];
 }
 return (X);
+}
 if (str == NULL)
 {
 return (NULL);
